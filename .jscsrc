@@ -1,0 +1,20 @@
+{
+    "preset": "google",
+    "maximumLineLength": 150,
+    "fileExtensions": [ ".js", ".jscs" ],
+
+    "requireSpaceBeforeKeywords": [ "else" ],
+    "requireMultipleVarDecl": true,
+    "requirePaddingNewLinesBeforeLineComments": true,
+    "requireSpacesInsideObjectBrackets": "all",
+
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningCurlyBrace": true,
+        "beforeOpeningRoundBrace": true
+    },
+
+    "disallowSpacesInAnonymousFunctionExpression": null,
+    "disallowSpacesInsideObjectBrackets": null,
+    "disallowSpacesInsideArrayBrackets": null,
+    "disallowMultipleVarDecl": null
+}
